@@ -1,0 +1,218 @@
+body {
+	font-family: 'Comfortaa', cursive;
+	font-size: 48px;
+	background-color: #f6f6f6;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	margin: 0 100px;
+}
+header {
+	background-color: #fff;
+	padding: 5px 0 20px 0;
+}
+header .logo {
+	float: left;
+}
+header .logo span {
+	color: #1fb6ff;
+	font-size: 60px;
+}
+header .logo a {
+	text-decoration: none;
+	color: #1f2d3d;
+}
+header .nav {
+	float: right;
+}
+header .nav ul li {
+	display: inline-block;
+	font-size: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+header .nav ul li a {
+	text-decoration: none;
+	color: #1f2d3d;
+}
+header .nav ul li a:hover {
+	border-bottom: 2px solid #1fb6ff;
+	padding-bottom: 10px;
+	color: #1fb6ff;
+}
+header .clear {
+	clear: both;
+}
+
+
+.jumbotron {
+	background-color: #fff;
+	padding: 10px 50px;
+}
+.jumbotron .intro {
+	float: left;
+}
+.jumbotron .intro a {
+	text-decoration: none;
+}
+.jumbotron .intro p {
+	font-size: 24px;
+	color: #1fb6ff;
+}
+.jumbotron .intro h3 {
+	color: #1f2d3d;
+}
+.jumbotron .intro .button {
+	font-size: 20px;
+	padding: 10px;
+	background-color: #fff;
+	color: #1f2d3d;
+	border: 2px solid #fff;
+	border-bottom: 2px solid #1fb6ff;
+}
+.jumbotron .intro .button:hover {
+	cursor: pointer;
+	border: 2px solid #1fb6ff;
+}
+.jumbotron .photoku {
+	float: right;
+}
+.jumbotron .clear {
+	clear: both;
+}
+
+
+.judulawal {
+	padding: 80px 0;
+	font-size: 20px;
+}
+
+
+.content {
+	padding: 0 79px;
+}
+.content .gambar {
+	background-color: #fff;
+	width: 300px;
+	font-size: 20px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.content .gambar .photo {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0;
+}
+.content .gambar .caption {
+	padding: 10px 20px;
+}
+.content .gambar .caption p {
+	font-size: 16px;
+	color: #1f2d3d;
+}
+.content .gambar .caption a {
+	font-size: 18px;
+}
+.content .gambar .caption .button {
+	text-decoration: none;
+	color: #1fb6ff;
+}
+.content .gambar .caption .button:hover {
+	border-bottom: 2px dotted #1fb6ff;
+}
+.content .gambar2 {
+	background-color: #fff;
+	width: 300px;
+	font-size: 20px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+.content .gambar2 .photo {
+	width: 300px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0;
+}
+.content .gambar2 .caption {
+	padding: 10px 20px;
+}
+.content .gambar2 .caption p {
+	font-size: 16px;
+	color: #1f2d3d;
+}
+.content .gambar2 .caption a {
+	font-size: 18px;
+}
+.content .gambar2 .caption .button {
+	text-decoration: none;
+	color: #1fb6ff;
+}
+.content .gambar2 .caption .button:hover {
+	border-bottom: 2px dotted #1fb6ff;
+}
+.content .clear {
+	clear: both;
+}
+
+
+.contact {
+	font-size: 16px;
+	margin-top: 50px;
+}
+.contact .contact-detail {
+	float: left;
+}
+.contact .contact-detail a {
+	text-decoration: none;
+	color: #212121;
+	font-weight: bold;
+}
+.contact .contact-form {
+	margin: 50px 150px 50px 0;
+	float: right;
+}
+.contact .contact-form input[type=submit] {
+	width: 100%;
+	background-color: #1fb6ff;
+	border: 1px solid #1fb6ff;
+}
+.contact .contact-form input[type=submit]:hover {
+	background-color: transparent;
+	border: 1px solid #1fb6ff;
+	cursor: pointer;
+}
+.contact .contact-form textarea {
+	border-radius: 5px;
+	padding: 10px;
+}
+.contact .contact-form input {
+	display: block;
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 368px;
+	border: 1px solid #a4a4a4;
+	border-radius: 5px;
+} 
+.contact .clear {
+	clear: both;
+}
+
+
+footer {
+	background-color: #fff;
+	padding: 30px;
+	margin-top: 30px;
+	font-size: 18px;
+}
+footer a {
+	text-decoration: none;
+	color: #212121;
+	font-weight: bold;
+}
+footer a:hover {
+	border-bottom: 1px dotted #212121;
+}
